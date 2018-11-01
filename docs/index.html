@@ -3,47 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <title>My Card</title>
-<style>
-body {
-  margin-top: 300px;
-  margin-left: 200px;
-  background-color: gray;
-}
-
-.card {
-  padding: 10px;
-  background-color: bisque;
-  width: 400px;
-  position: relative;
-}
-
-.company-name {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-}
-
-</style>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div class="card">
-      <h3>
+      <h1 class="card-header">
         WeWork <br/>
         Samseong <br/>
         Station
-      </h3>
-      <ul>
-        <li>+82 (0)2.521.2920</li>
-        <li>smaseongstation@wework.com</li>
-        <li>www.wework.com</li>
-      </ul>
-      <span>B1, 507, Teheran-ro</span>
-      <br/>
-      <span>Gangnam-gu, Seoul, Korea 06168</span>
-      <br/>
-      <span>서울시 강남구 테헤란로 507, B1층</span>
-      <br/>
-      <br/>
+      </h1>
+
+      <div class="card-link">
+        <a href="tel:+82025212920">+82 (0)2.521.2920</a>
+        <a href="mailto:samseongstation@wework.com">samseongstation@wework.com</a>
+        <a href="www.wework.com">www.wework.com</a>
+      </div>
+
+      <p>B1, 507, Teheran-ro</p>
+      <p class="text-phil" >Gangnam-gu, Seoul, Korea 06168</p>
+      <p class="text-phil">서울시 강남구 테헤란로 507, B1층</p>
+
       <div class="card-footer">
         <span class="company-name" title="Hi Hello">wework</span>
       </div>

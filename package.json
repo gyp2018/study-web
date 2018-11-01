@@ -5,6 +5,6 @@
   "author": "GimYoungPhil <youngphil.gim@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "cd doc && python -m SimpleHTTPServer 8080"
+    "start": "cd docs && python -m SimpleHTTPServer 8080"
   }
 }
